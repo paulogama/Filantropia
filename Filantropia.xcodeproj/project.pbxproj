@@ -177,7 +177,7 @@
 					};
 					C9DC003821A1979400FB66FC = {
 						CreatedOnToolsVersion = 10.0;
-						TestTargetID = C9DC002421A1978C00FB66FC;
+						LastSwiftMigration = 1000;
 					};
 				};
 			};
@@ -424,9 +424,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 53QWD2UZM4;
+				DEVELOPMENT_TEAM = 68289LYC3X;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -439,9 +439,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.FilantropiaTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filantropia.app/Filantropia";
 			};
 			name = Debug;
 		};
@@ -449,9 +449,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 53QWD2UZM4;
+				DEVELOPMENT_TEAM = 68289LYC3X;
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/Carthage/Build/iOS",
@@ -466,7 +466,6 @@
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Filantropia.app/Filantropia";
 			};
 			name = Release;
 		};
