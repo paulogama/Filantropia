@@ -8,11 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C9DC002921A1978C00FB66FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC002821A1978C00FB66FC /* AppDelegate.swift */; };
-		C9DC002B21A1978C00FB66FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC002A21A1978C00FB66FC /* ViewController.swift */; };
 		C9DC002E21A1978C00FB66FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DC002C21A1978C00FB66FC /* Main.storyboard */; };
 		C9DC003021A1979300FB66FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C9DC002F21A1979300FB66FC /* Assets.xcassets */; };
 		C9DC003321A1979300FB66FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C9DC003121A1979300FB66FC /* LaunchScreen.storyboard */; };
-		C9DC003E21A1979400FB66FC /* FilantropiaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C9DC003D21A1979400FB66FC /* FilantropiaTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -28,13 +26,11 @@
 /* Begin PBXFileReference section */
 		C9DC002521A1978C00FB66FC /* Filantropia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Filantropia.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C9DC002821A1978C00FB66FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		C9DC002A21A1978C00FB66FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		C9DC002D21A1978C00FB66FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		C9DC002F21A1979300FB66FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C9DC003221A1979300FB66FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C9DC003421A1979300FB66FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C9DC003921A1979400FB66FC /* FilantropiaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FilantropiaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		C9DC003D21A1979400FB66FC /* FilantropiaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FilantropiaTests.swift; sourceTree = "<group>"; };
 		C9DC003F21A1979400FB66FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -78,7 +74,6 @@
 			isa = PBXGroup;
 			children = (
 				C9DC002821A1978C00FB66FC /* AppDelegate.swift */,
-				C9DC002A21A1978C00FB66FC /* ViewController.swift */,
 				C9DC002C21A1978C00FB66FC /* Main.storyboard */,
 				C9DC002F21A1979300FB66FC /* Assets.xcassets */,
 				C9DC003121A1979300FB66FC /* LaunchScreen.storyboard */,
@@ -90,7 +85,6 @@
 		C9DC003C21A1979400FB66FC /* FilantropiaTests */ = {
 			isa = PBXGroup;
 			children = (
-				C9DC003D21A1979400FB66FC /* FilantropiaTests.swift */,
 				C9DC003F21A1979400FB66FC /* Info.plist */,
 			);
 			path = FilantropiaTests;
@@ -197,7 +191,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DC002B21A1978C00FB66FC /* ViewController.swift in Sources */,
 				C9DC002921A1978C00FB66FC /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -206,7 +199,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C9DC003E21A1979400FB66FC /* FilantropiaTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -291,7 +283,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -346,7 +338,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -361,8 +353,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 53QWD2UZM4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Filantropia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -370,7 +363,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.Filantropia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -379,8 +372,9 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 53QWD2UZM4;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = Filantropia/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -388,7 +382,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.paulogama.Filantropia;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
